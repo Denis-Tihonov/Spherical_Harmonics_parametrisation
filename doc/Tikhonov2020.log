@@ -1197,31 +1197,37 @@ Package caption Info: float package is loaded.
 \c@Rule=\count396
 \c@Condition=\count397
 )
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count398
-\l__pdf_internal_box=\box72
-)
-(./Tikhonov2020.aux)
-\openout1 = `Tikhonov2020.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+./Tikhonov2020.tex:12: LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.12 \textbf{Ключевые слова}
+                                         : \emph {ключевое слов�...
+
+? 
+./Tikhonov2020.tex:12: Emergency stop.
+ ...                                              
+                                                  
+l.12 \textbf{Ключевые слова}
+                                         : \emph {ключевое слов�...
+
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 29541 strings out of 480608
+ 679908 string characters out of 5903631
+ 1091392 words of memory out of 5000000
+ 44885 multiletter control sequences out of 15000+600000
+ 535757 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 71i,0n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+./Tikhonov2020.tex:12:  ==> Fatal error occurred, no output PDF file produced!
+cmap>><<oms.cmap>><<omx.cmap>>
 LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
 
 
