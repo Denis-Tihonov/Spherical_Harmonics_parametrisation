@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  16 DEC 2020 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 DEC 2020 18:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1197,56 +1197,50 @@ Package caption Info: float package is loaded.
 \c@Rule=\count396
 \c@Condition=\count397
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
+File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
+\l__kernel_color_stack_int=\count398
+\l__pdf_internal_box=\box72
+)
+(./Tikhonov2020.aux)
+\openout1 = `Tikhonov2020.aux'.
 
-./Tikhonov2020.tex:12: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.12 \textbf{Ключевые слова}
-                                         : \emph {ключевое слов�...
-
-? 
-./Tikhonov2020.tex:12: Emergency stop.
- ...                                              
-                                                  
-l.12 \textbf{Ключевые слова}
-                                         : \emph {ключевое слов�...
-
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
- 
-Here is how much of TeX's memory you used:
- 29541 strings out of 480608
- 679908 string characters out of 5903631
- 1091392 words of memory out of 5000000
- 44885 multiletter control sequences out of 15000+600000
- 535757 words of font info for 36 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 71i,0n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-./Tikhonov2020.tex:12:  ==> Fatal error occurred, no output PDF file produced!
-cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
+LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 34.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 34
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 35
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package xypdf Info: Line width: 0.47998pt on input line 34.
+Package xypdf Info: Line width: 0.47998pt on input line 35.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1266,13 +1260,13 @@ Package xypdf Info: Line width: 0.47998pt on input line 34.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 34.
+ on input line 35.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-38.
+42.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1290,31 +1284,43 @@ This may cause the page layout to be inconsistent, however.
 
 
 ]
-(./Tikhonov2020.aux) ) 
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[2] (./Tikhonov2020.aux) ) 
 Here is how much of TeX's memory you used:
- 30386 strings out of 480608
- 696450 string characters out of 5903631
- 1095393 words of memory out of 5000000
- 45643 multiletter control sequences out of 15000+600000
- 551308 words of font info for 71 fonts, out of 8000000 for 9000
+ 30434 strings out of 480608
+ 697046 string characters out of 5903631
+ 1099393 words of memory out of 5000000
+ 45665 multiletter control sequences out of 15000+600000
+ 556186 words of font info for 91 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
- 71i,13n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-su
-per/cm-super-t2a.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
+ 71i,14n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/c
+m-super/cm-super-t2a.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-supe
-r/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/
-sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sf
-rm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm
-1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx14
-40.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1728
-.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.p
-fb>
-Output written on Tikhonov2020.pdf (1 page, 136221 bytes).
+onts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+sy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
+8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/m
+sbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1
+095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm100
+0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on Tikhonov2020.pdf (2 pages, 206862 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
- 38 compressed objects within 1 object stream
+ 96 PDF objects out of 1000 (max. 8388607)
+ 67 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
