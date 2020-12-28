@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  24 DEC 2020 18:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  28 DEC 2020 12:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1290,11 +1290,11 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 [2] (./Tikhonov2020.aux) ) 
 Here is how much of TeX's memory you used:
- 30434 strings out of 480608
- 697046 string characters out of 5903631
- 1099393 words of memory out of 5000000
- 45665 multiletter control sequences out of 15000+600000
- 556186 words of font info for 91 fonts, out of 8000000 for 9000
+ 30440 strings out of 480608
+ 697124 string characters out of 5903631
+ 1100393 words of memory out of 5000000
+ 45667 multiletter control sequences out of 15000+600000
+ 557865 words of font info for 93 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,14n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/c
@@ -1311,16 +1311,18 @@ msy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
 sy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/m
 sbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1
-095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm100
-0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.
-pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on Tikhonov2020.pdf (2 pages, 206862 bytes).
+095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx120
+0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
+pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
+b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on Tikhonov2020.pdf (2 pages, 221711 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
- 67 compressed objects within 1 object stream
+ 104 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
