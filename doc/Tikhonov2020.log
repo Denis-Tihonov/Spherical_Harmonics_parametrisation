@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  20 JAN 2021 21:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  23 FEB 2021 23:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1205,42 +1205,42 @@ File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
 (./Tikhonov2020.aux)
 \openout1 = `Tikhonov2020.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 39.
+LaTeX Font Info:    ... okay on input line 39.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 39.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 39.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 35
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 39
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package xypdf Info: Line width: 0.47998pt on input line 35.
+Package xypdf Info: Line width: 0.47998pt on input line 39.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1260,13 +1260,13 @@ Package xypdf Info: Line width: 0.47998pt on input line 35.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 35.
+ on input line 39.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-42.
+46.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1284,45 +1284,225 @@ This may cause the page layout to be inconsistent, however.
 
 
 ]
+Package epstopdf Info: Source file: <figs/tr_init.eps>
+(epstopdf)                    date: 2021-02-23 20:02:42
+(epstopdf)                    size: 191298 bytes
+(epstopdf)             Output file: <figs/tr_init-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:20
+(epstopdf)                    size: 11930 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/tr_init-eps-converted
+-to.pdf figs/tr_init.eps>
+(epstopdf)             \includegraphics on input line 125.
+Package epstopdf Info: Output file is already uptodate.
+<figs/tr_init-eps-converted-to.pdf, id=32, 350.30875pt x 327.2225pt>
+File: figs/tr_init-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/tr_init-eps-converted-to.pdf>
+Package pdftex.def Info: figs/tr_init-eps-converted-to.pdf  used on input line 
+125.
+(pdftex.def)             Requested size: 145.11052pt x 135.55014pt.
+Package epstopdf Info: Source file: <figs/phase_init.eps>
+(epstopdf)                    date: 2021-02-23 20:03:09
+(epstopdf)                    size: 189961 bytes
+(epstopdf)             Output file: <figs/phase_init-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:20
+(epstopdf)                    size: 11928 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_init-eps-conver
+ted-to.pdf figs/phase_init.eps>
+(epstopdf)             \includegraphics on input line 126.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_init-eps-converted-to.pdf, id=33, 361.35pt x 361.35pt>
+File: figs/phase_init-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_init-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_init-eps-converted-to.pdf  used on input li
+ne 126.
+(pdftex.def)             Requested size: 145.11052pt x 145.11087pt.
+Package epstopdf Info: Source file: <figs/phase_cosine.eps>
+(epstopdf)                    date: 2021-02-23 20:03:10
+(epstopdf)                    size: 190350 bytes
+(epstopdf)             Output file: <figs/phase_cosine-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:21
+(epstopdf)                    size: 11568 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_cosine-eps-conv
+erted-to.pdf figs/phase_cosine.eps>
+(epstopdf)             \includegraphics on input line 132.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_cosine-eps-converted-to.pdf, id=34, 361.35pt x 361.35pt>
+File: figs/phase_cosine-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_cosine-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_cosine-eps-converted-to.pdf  used on input 
+line 132.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+Package epstopdf Info: Source file: <figs/phase_poly.eps>
+(epstopdf)                    date: 2021-02-23 20:03:11
+(epstopdf)                    size: 190277 bytes
+(epstopdf)             Output file: <figs/phase_poly-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:21
+(epstopdf)                    size: 11805 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_poly-eps-conver
+ted-to.pdf figs/phase_poly.eps>
+(epstopdf)             \includegraphics on input line 133.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_poly-eps-converted-to.pdf, id=35, 361.35pt x 361.35pt>
+File: figs/phase_poly-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_poly-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_poly-eps-converted-to.pdf  used on input li
+ne 133.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+Package epstopdf Info: Source file: <figs/phase_rbf.eps>
+(epstopdf)                    date: 2021-02-23 20:03:12
+(epstopdf)                    size: 190694 bytes
+(epstopdf)             Output file: <figs/phase_rbf-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:22
+(epstopdf)                    size: 11547 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_rbf-eps-convert
+ed-to.pdf figs/phase_rbf.eps>
+(epstopdf)             \includegraphics on input line 134.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_rbf-eps-converted-to.pdf, id=36, 361.35pt x 361.35pt>
+File: figs/phase_rbf-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_rbf-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_rbf-eps-converted-to.pdf  used on input lin
+e 134.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+Package epstopdf Info: Source file: <figs/phase_sigmoid.eps>
+(epstopdf)                    date: 2021-02-23 20:03:13
+(epstopdf)                    size: 189945 bytes
+(epstopdf)             Output file: <figs/phase_sigmoid-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:23
+(epstopdf)                    size: 11414 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_sigmoid-eps-con
+verted-to.pdf figs/phase_sigmoid.eps>
+(epstopdf)             \includegraphics on input line 135.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_sigmoid-eps-converted-to.pdf, id=37, 361.35pt x 361.35pt>
+File: figs/phase_sigmoid-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_sigmoid-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_sigmoid-eps-converted-to.pdf  used on input
+ line 135.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+Package epstopdf Info: Source file: <figs/phase_tsne.eps>
+(epstopdf)                    date: 2021-02-23 20:23:48
+(epstopdf)                    size: 210212 bytes
+(epstopdf)             Output file: <figs/phase_tsne-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:24:23
+(epstopdf)                    size: 19856 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_tsne-eps-conver
+ted-to.pdf figs/phase_tsne.eps>
+(epstopdf)             \includegraphics on input line 136.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_tsne-eps-converted-to.pdf, id=38, 361.35pt x 361.35pt>
+File: figs/phase_tsne-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_tsne-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_tsne-eps-converted-to.pdf  used on input li
+ne 136.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+Package epstopdf Info: Source file: <figs/phase_enc.eps>
+(epstopdf)                    date: 2021-02-23 13:51:15
+(epstopdf)                    size: 55241 bytes
+(epstopdf)             Output file: <figs/phase_enc-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 13:52:38
+(epstopdf)                    size: 20550 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_enc-eps-convert
+ed-to.pdf figs/phase_enc.eps>
+(epstopdf)             \includegraphics on input line 137.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_enc-eps-converted-to.pdf, id=39, 722.7pt x 722.7pt>
+File: figs/phase_enc-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_enc-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_enc-eps-converted-to.pdf  used on input lin
+e 137.
+(pdftex.def)             Requested size: 120.92421pt x 120.91653pt.
+Package epstopdf Info: Source file: <figs/phase_mds.eps>
+(epstopdf)                    date: 2021-02-23 14:50:32
+(epstopdf)                    size: 204435 bytes
+(epstopdf)             Output file: <figs/phase_mds-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 14:51:00
+(epstopdf)                    size: 17473 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_mds-eps-convert
+ed-to.pdf figs/phase_mds.eps>
+(epstopdf)             \includegraphics on input line 138.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_mds-eps-converted-to.pdf, id=40, 361.35pt x 361.35pt>
+File: figs/phase_mds-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_mds-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_mds-eps-converted-to.pdf  used on input lin
+e 138.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+Package epstopdf Info: Source file: <figs/phase_hLLE.eps>
+(epstopdf)                    date: 2021-02-23 20:35:32
+(epstopdf)                    size: 195930 bytes
+(epstopdf)             Output file: <figs/phase_hLLE-eps-converted-to.pdf>
+(epstopdf)                    date: 2021-02-23 20:36:00
+(epstopdf)                    size: 13705 bytes
+(epstopdf)             Command: <repstopdf --outfile=figs/phase_hLLE-eps-conver
+ted-to.pdf figs/phase_hLLE.eps>
+(epstopdf)             \includegraphics on input line 139.
+Package epstopdf Info: Output file is already uptodate.
+<figs/phase_hLLE-eps-converted-to.pdf, id=41, 361.35pt x 361.35pt>
+File: figs/phase_hLLE-eps-converted-to.pdf Graphic file (type pdf)
+<use figs/phase_hLLE-eps-converted-to.pdf>
+Package pdftex.def Info: figs/phase_hLLE-eps-converted-to.pdf  used on input li
+ne 139.
+(pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
 
-[2] (./Tikhonov2020.aux) ) 
+[2] (./Tikhonov2020.bbl)
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[3 <./figs/tr_init-eps-converted-to.pdf> <./figs/phase_init-eps-converted-to.pd
+f> <./figs/phase_cosine-eps-converted-to.pdf> <./figs/phase_poly-eps-converted-
+to.pdf> <./figs/phase_rbf-eps-converted-to.pdf> <./figs/phase_sigmoid-eps-conve
+rted-to.pdf> <./figs/phase_tsne-eps-converted-to.pdf> <./figs/phase_enc-eps-con
+verted-to.pdf> <./figs/phase_mds-eps-converted-to.pdf> <./figs/phase_hLLE-eps-c
+onverted-to.pdf>] (./Tikhonov2020.aux) ) 
 Here is how much of TeX's memory you used:
- 30440 strings out of 480608
- 697124 string characters out of 5903631
- 1100393 words of memory out of 5000000
- 45667 multiletter control sequences out of 15000+600000
- 557865 words of font info for 93 fonts, out of 8000000 for 9000
+ 30677 strings out of 480608
+ 702410 string characters out of 5903631
+ 1103393 words of memory out of 5000000
+ 45875 multiletter control sequences out of 15000+600000
+ 558739 words of font info for 94 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,14n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/c
-m-super/cm-super-t2a.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1
-095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx120
-0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
-pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/
-local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
-Output written on Tikhonov2020.pdf (2 pages, 232334 bytes).
+{/usr/local/texlive/2020/texmf-dist/fon
+ts/enc/dvips/cm-super/cm-super-t2a.enc}</usr/local/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmsy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
+onts/symbols/msbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
+cm-super/sfbx1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm
+-super/sfbx1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-s
+uper/sfrm1000.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-sup
+er/sfrm1095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super
+/sfrm1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/s
+fsl1200.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfs
+x1440.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1
+728.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti100
+0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.
+pfb>
+Output written on Tikhonov2020.pdf (3 pages, 375518 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 73 compressed objects within 1 object stream
+ 200 PDF objects out of 1000 (max. 8388607)
+ 151 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
