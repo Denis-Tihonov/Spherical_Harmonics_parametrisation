@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 MAR 2021 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.16)  17 MAR 2021 15:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1270,11 +1270,17 @@ LaTeX Font Info:    Trying to load font information for T2A+cmss on input line
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
+
+LaTeX Warning: Citation `1999' on page 1 undefined on input line 50.
+
+
+LaTeX Warning: Citation `Maaten2007' on page 1 undefined on input line 54.
+
 Package epstopdf Info: Source file: <figs/tr_init.eps>
-(epstopdf)                    date: 2021-03-09 12:27:24
+(epstopdf)                    date: 2021-03-16 15:59:29
 (epstopdf)                    size: 188389 bytes
 (epstopdf)             Output file: <figs/tr_init-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-09 13:16:14
+(epstopdf)                    date: 2021-03-17 11:22:02
 (epstopdf)                    size: 11089 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/tr_init-eps-converted
 -to.pdf figs/tr_init.eps>
@@ -1303,7 +1309,6 @@ Package pdftex.def Info: figs/phase_init-eps-converted-to.pdf  used on input li
 ne 62.
 (pdftex.def)             Requested size: 145.11052pt x 145.11087pt.
 
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
@@ -1321,6 +1326,10 @@ This may cause the page layout to be inconsistent, however.
 
 
 ]
+
+LaTeX Warning: Citation `Maaten2007' on page 2 undefined on input line 127.
+
+
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
@@ -1335,13 +1344,13 @@ Package epstopdf Info: Source file: <figs/phase_cosine.eps>
 (epstopdf)                    size: 11568 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_cosine-eps-conv
 erted-to.pdf figs/phase_cosine.eps>
-(epstopdf)             \includegraphics on input line 133.
+(epstopdf)             \includegraphics on input line 134.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_cosine-eps-converted-to.pdf, id=59, 361.35pt x 361.35pt>
 File: figs/phase_cosine-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_cosine-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_cosine-eps-converted-to.pdf  used on input 
-line 133.
+line 134.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 Package epstopdf Info: Source file: <figs/phase_poly.eps>
 (epstopdf)                    date: 2021-02-23 20:03:11
@@ -1351,13 +1360,13 @@ Package epstopdf Info: Source file: <figs/phase_poly.eps>
 (epstopdf)                    size: 11805 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_poly-eps-conver
 ted-to.pdf figs/phase_poly.eps>
-(epstopdf)             \includegraphics on input line 134.
+(epstopdf)             \includegraphics on input line 135.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_poly-eps-converted-to.pdf, id=60, 361.35pt x 361.35pt>
 File: figs/phase_poly-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_poly-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_poly-eps-converted-to.pdf  used on input li
-ne 134.
+ne 135.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 Package epstopdf Info: Source file: <figs/phase_rbf.eps>
 (epstopdf)                    date: 2021-02-23 20:03:12
@@ -1367,13 +1376,13 @@ Package epstopdf Info: Source file: <figs/phase_rbf.eps>
 (epstopdf)                    size: 11547 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_rbf-eps-convert
 ed-to.pdf figs/phase_rbf.eps>
-(epstopdf)             \includegraphics on input line 135.
+(epstopdf)             \includegraphics on input line 136.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_rbf-eps-converted-to.pdf, id=61, 361.35pt x 361.35pt>
 File: figs/phase_rbf-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_rbf-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_rbf-eps-converted-to.pdf  used on input lin
-e 135.
+e 136.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 Package epstopdf Info: Source file: <figs/phase_sigmoid.eps>
 (epstopdf)                    date: 2021-02-23 20:03:13
@@ -1383,29 +1392,29 @@ Package epstopdf Info: Source file: <figs/phase_sigmoid.eps>
 (epstopdf)                    size: 11414 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_sigmoid-eps-con
 verted-to.pdf figs/phase_sigmoid.eps>
-(epstopdf)             \includegraphics on input line 136.
+(epstopdf)             \includegraphics on input line 137.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_sigmoid-eps-converted-to.pdf, id=62, 361.35pt x 361.35pt>
 File: figs/phase_sigmoid-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_sigmoid-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_sigmoid-eps-converted-to.pdf  used on input
- line 136.
+ line 137.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 Package epstopdf Info: Source file: <figs/phase_tsne.eps>
-(epstopdf)                    date: 2021-03-09 11:36:16
+(epstopdf)                    date: 2021-03-16 16:01:41
 (epstopdf)                    size: 211668 bytes
 (epstopdf)             Output file: <figs/phase_tsne-eps-converted-to.pdf>
-(epstopdf)                    date: 2021-03-09 12:25:46
+(epstopdf)                    date: 2021-03-17 11:22:24
 (epstopdf)                    size: 20365 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_tsne-eps-conver
 ted-to.pdf figs/phase_tsne.eps>
-(epstopdf)             \includegraphics on input line 137.
+(epstopdf)             \includegraphics on input line 138.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_tsne-eps-converted-to.pdf, id=63, 361.35pt x 361.35pt>
 File: figs/phase_tsne-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_tsne-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_tsne-eps-converted-to.pdf  used on input li
-ne 137.
+ne 138.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 Package epstopdf Info: Source file: <figs/phase_enc.eps>
 (epstopdf)                    date: 2021-02-23 13:51:15
@@ -1415,13 +1424,13 @@ Package epstopdf Info: Source file: <figs/phase_enc.eps>
 (epstopdf)                    size: 20550 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_enc-eps-convert
 ed-to.pdf figs/phase_enc.eps>
-(epstopdf)             \includegraphics on input line 138.
+(epstopdf)             \includegraphics on input line 139.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_enc-eps-converted-to.pdf, id=64, 722.7pt x 722.7pt>
 File: figs/phase_enc-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_enc-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_enc-eps-converted-to.pdf  used on input lin
-e 138.
+e 139.
 (pdftex.def)             Requested size: 120.92421pt x 120.91653pt.
 Package epstopdf Info: Source file: <figs/phase_mds.eps>
 (epstopdf)                    date: 2021-02-23 14:50:32
@@ -1431,13 +1440,13 @@ Package epstopdf Info: Source file: <figs/phase_mds.eps>
 (epstopdf)                    size: 17473 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_mds-eps-convert
 ed-to.pdf figs/phase_mds.eps>
-(epstopdf)             \includegraphics on input line 139.
+(epstopdf)             \includegraphics on input line 140.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_mds-eps-converted-to.pdf, id=65, 361.35pt x 361.35pt>
 File: figs/phase_mds-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_mds-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_mds-eps-converted-to.pdf  used on input lin
-e 139.
+e 140.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 Package epstopdf Info: Source file: <figs/phase_hLLE.eps>
 (epstopdf)                    date: 2021-02-23 20:35:32
@@ -1447,22 +1456,19 @@ Package epstopdf Info: Source file: <figs/phase_hLLE.eps>
 (epstopdf)                    size: 13705 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_hLLE-eps-conver
 ted-to.pdf figs/phase_hLLE.eps>
-(epstopdf)             \includegraphics on input line 140.
+(epstopdf)             \includegraphics on input line 141.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_hLLE-eps-converted-to.pdf, id=66, 361.35pt x 361.35pt>
 File: figs/phase_hLLE-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_hLLE-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_hLLE-eps-converted-to.pdf  used on input li
-ne 140.
+ne 141.
 (pdftex.def)             Requested size: 120.92421pt x 120.92204pt.
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-162.
+163.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
@@ -1481,48 +1487,49 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
 
-[5] (./Tikhonov2020.bbl)
-Underfull \hbox (badness 10000) has occurred while \output is active
+[5]
+No file Tikhonov2020.bbl.
+(./Tikhonov2020.aux)
 
- []
+LaTeX Warning: There were undefined references.
 
-[6] (./Tikhonov2020.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 30705 strings out of 480608
- 703151 string characters out of 5903631
+ 30702 strings out of 480608
+ 703099 string characters out of 5903630
  1102393 words of memory out of 5000000
- 45895 multiletter control sequences out of 15000+600000
+ 45894 multiletter control sequences out of 15000+600000
  559853 words of font info for 96 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,14n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/c
-m-super/cm-super-t2a.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmbx8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmss8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy7.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
-8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/m
-sbm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1
-095.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx120
-0.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.
-pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pf
-b></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></
-usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></us
-r/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/
-local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/lo
-cal/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb></usr/loca
-l/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Tikhonov2020.pdf (6 pages, 412712 bytes).
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
+}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
+usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></us
+r/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/t
+exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/te
+xlive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texl
+ive/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texliv
+e/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/
+2020/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/20
+20/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020
+/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2020/t
+exmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2020/tex
+mf-dist/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2020/texmf
+-dist/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2020/texmf-d
+ist/fonts/type1/public/cm-super/sfti1095.pfb></usr/local/texlive/2020/texmf-dis
+t/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Tikhonov2020.pdf (5 pages, 409925 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
+ 208 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 
