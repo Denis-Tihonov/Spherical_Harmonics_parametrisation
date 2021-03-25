@@ -47,7 +47,7 @@
 \maketitle
 
 \section{Введение}
-Ставится задача построения модели аппроксимации квазипериодического временного ряда. Примерами таких сигналов являются показания акселерометра во время ходьбы и бега.\cite{1999}  
+Ставится задача построения модели аппроксимации квазипериодического временного ряда. Примерами таких сигналов являются показания акселерометра во время ходьбы и бега.
 	
 Для этого строится пространство фазовой тракеториии по выбранному временному ряду.  Это делается с помощью построения траекторной матрицы или матрицы Ганкеля.
 Для нашего исследования 
@@ -55,7 +55,6 @@
 	
 В выбранном пространстве уменьшенной размерности предлагается спроецировать имеющуюся траекторию на $p$-мерную единичную сферу и перейти в $p-1$-мерное сферическое пространство. Полученную определенную на поверхности сферы функцию предлагается представить в виде ряда разложенного по сферическим функциям.
 
-На рис.~\ref{fg:initial_traj} показан изначальный временной ряд и его разложение, пунктирной и сплошной линией соответственно, а также его фазовая траектория уменьшенная в пространство размерности 3 с помощью метода главных компонент (principal component analysis, PCA).
 \begin{figure}[h]
 \centering
   \subfloat[Временной ряд]{\includegraphics[width=0.3\textwidth]{figs/tr_init}}
@@ -64,30 +63,31 @@
 \label{fg:initial_traj}
 \end{figure}
 
+На рис.~\ref{fg:initial_traj} показан изначальный временной ряд и его разложение, пунктирной и сплошной линией соответственно, а также его фазовая траектория уменьшенная в пространство размерности 3 с помощью метода главных компонент (principal component analysis, PCA).
+
 \section{Постановка задачи}
-По имеющемуся временному ряду $\mathbf{x}=[x_1,...,x_N]^{\mathsf{T}}$ строится траекторная матрица или матрица Ганкеля
+По имеющемуся временному ряду $\mathbf{s}=[s_1,...,s_N]^{\mathsf{T}}$ строится траекторная матрица или матрица Ганкеля
 
 \begin{equation}
-\mathbf{H_{x}} = 
+\mathbf{H_{s}} = 
 \begin{bmatrix} 
-	x_{1} & x_{2} & \ldots &x_{n-1} &x_{n}\\
-	x_{2} & x_{3} & \ldots &x_{n} &x_{n+1}\\
+	s_{1} & s_{2} & \ldots &s_{n-1} &s_{n}\\
+	s_{2} & s_{3} & \ldots &s_{n} &s_{n+1}\\
 	\vdots& \vdots & \ddots & \vdots & \vdots\\
-	x_{N-n+1} & x_{N-n+2} &\ldots&x_{N-1} &x_{N}\\
+	s_{N-n+1} & s_{N-n+2} &\ldots&s_{N-1} &s_{N}\\
 \end{bmatrix}
 \label{eq:hankel_matrix}
 \end{equation}
-
                    
-где $N$-длинна временного ряда, $n$-ширина окна, не меньшая, чем предполагаемый период. Обозначим $t$-ую строку матрицы Ганкеля $\mathbf{H_{x}}$ за $\mathbf{x_{t}}$. Матрица $\mathbf{H_{x}}$ пребразуется к:	
+где $N$-длинна временного ряда, $n$-ширина окна, не меньшая, чем предполагаемый период. Обозначим $t$-ую строку матрицы Ганкеля $\mathbf{H_{s}}$ за $\mathbf{x_{t}}$. Матрица $\mathbf{H_{s}}$ пребразуется к:	
 \begin{equation}
-	\mathbf{H_{x}} = 
+	\mathbf{H_{s}} = 
 	\begin{bmatrix} 
                   	\mathbf{x_{1}}\\ \mathbf{x_{2}}\\
                   	\vdots\\
                   	\mathbf{x_{m}}\\
                    \end{bmatrix},
-                   \mathbf{x_t}=[x_{t},x_{t+1},\ldots,x_{t+n-1}] ,
+                   \mathbf{x_t}=[s_{t},s_{t+1},\ldots,s_{t+n-1}] ,
                    m = N-n+1
 \label{eq:hankel_matrix_2}
 \end{equation}
@@ -111,7 +111,8 @@
 
 \begin{Def}
 Параметрическая аппроксимирующая модель временного ряда  $\mathbf{x}$  - это такое отображение $g$, что:
-\begin{equation} g: \mathbb{R}^{q} \times \mathbf{S} \xrightarrow{} \mathbf{S}
+\begin{equation}
+	g: \mathbb{R}^{q} \times \mathbf{S} \xrightarrow{} \mathbf{S}
 \label{eq:param_model}
 \end{equation}
 \end{Def}
@@ -122,13 +123,85 @@
 Структурная сложность - это количество параметров $q$ модели, позволяющих строить адекватную аппроксимацию.
 \end{Def}
 
+
+
 \section{Понижение размерности}
 \paragraph{Алгоритмы понижения размерности}
 Рассматриваемый поход предполагает использование и анализ различных алгоритмов понижения размерности согласно \cite{Maaten2007}.
 Предполагается, что исследуемые способы относятся к различным семействам алгоритмов понижения размерности и позволяют качественно отыскивать одномерные многообразия в многомерных пространствах.
-Для упрощения первоначального анализа будем использовать 3-мерное уменьшенное пространство.
+
+Используется алгоритм Kernel Principal Component Analysis (KPCA), описанный в \cite{Scholkopf1998, Ezukwoke2019}, позволяющий обобщить классический PCA с помощью нелинейных преобразиваний $\Phi$ матрицы несмещенных данных $\mathbf{x}_i, ~i=1,...,m,~\mathbf{x}_i \in \mathbb{R}^n$:
+
+\begin{equation}
+	 C = \frac{1}{m}\sum_{i=1}^{m}\Phi(\mathbf{x}_i) \Phi(\mathbf{x}_i)^T,
+	 \qquad \sum_{i=1}^{m}\Phi(\mathbf{x}_i) = 0,
+	 \qquad \Phi: \mathbb{R}^{n} \xrightarrow{} \mathbb{R}^{n'},
+	 \quad n\ll n'
+\label{eq:kpca}
+\end{equation}
+
+Далее применяется ядерный метод позволяющий избегать явного отображения в новое пространство высокой размерности, включающий в себя матрицу Грама $\mathbf{K} \in \mathbb{R}^{m \times m}$ и функцию ядро $k$. Для нахождения итогового отображения в пространство малой размерности находятся собственные значения и собственные вектора матрицы $\mathbf{\tilde K}$, если данные не центрированы. 
+
+\begin{equation}
+	 \mathbf{K}_{i,j} = k(\mathbf{x}_i,\mathbf{x}_j) = \Phi(\mathbf{x}_i)^T\Phi(\mathbf{x}_j),
+	 \quad \mathbf{\tilde K} = \mathbf{K} - \mathbf{1}_m\mathbf{K} - \mathbf{K} \mathbf{1}_m  +\mathbf{1}_m\mathbf{K}\mathbf{1}_m,
+\label{eq:K_matrix}
+\end{equation}
+где  $\mathbf{1}_m$ - это матрица $m\times m$, в которой каждый элемент равен $1/m$.
+
+Применяются следующие базовые варианты ядерной функции $k$.
+
+\begin{itemize}
+\item \textbf{Линейное ядро (англ. linear)}
+\begin{equation}
+	k(\mathbf{x}_i,\mathbf{x}_j) = \mathbf{x}_i\mathbf{x}_j^T,
+\label{eq:kernel_linear}
+\end{equation}
+это ядро приводящее KPCA к классическому линейному PCA.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Полиномиальное ядро (англ. polynomial или poly)}
+\begin{equation}
+	k(\mathbf{x}_i,\mathbf{x}_j) = (\mathbf{x}_i\mathbf{x}_j^T + c)^d,
+	\quad d \ge 0,
+	\quad c \ge 0
+\label{eq:kernel_poly}
+\end{equation}
+%где $c > 0$, \; $c = const$, \; $d \ge 1$ - степень полинома.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Гауссово ядро (англ. Radial basis function, rbf)}
+\begin{equation}
+	k(\mathbf{x}_i,\mathbf{x}_j) = exp\left(-\frac{||\mathbf{x}_i-\mathbf{x}_j||^2}{2\sigma^2}\right),
+	\quad \sigma > 0
+\label{eq:kernel_rbf}
+\end{equation}
+%где  $\sigma > 0$.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Cигмоидальное ядро (англ. sigmoid)}
+\begin{equation}
+	k(\mathbf{x}_i,\mathbf{x}_j) = tanh(\gamma(\mathbf{x}_i\mathbf{x}_j^T) + c),
+	\quad \gamma > 0,
+	\quad c\ge0
+\label{eq:kernel_sigmoid}
+\end{equation}
+%где  $\gamma > 0$, \; $c\ge0$.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Косинусное ядро (англ. cosine)}
+\begin{equation}
+	k(\mathbf{x}_i,\mathbf{x}_j) = \frac{\mathbf{x}_i\mathbf{x}_j^T}{||\mathbf{x}_i||~||\mathbf{x}_j||}
+\label{eq:kernel_cosine}
+\end{equation}
+\end{itemize}
 
 \paragraph{Фазовые траектории в пространстве малой размерности}
+
 \begin{figure}[h]
 \centering
   \subfloat[KPCA cosine]{\includegraphics[width=0.25\textwidth]{figs/phase_cosine}}
@@ -143,7 +216,7 @@
 \label{fg:new_traj_1}
 \end{figure}
 
-Некоторые из исследуемых моделей уже можно использовать в качестве аппроксимационных, так как с помощью координат в уменьшеном пространстве можно задавать вид фазовой траектории для различных типов движения.
+Некоторые из исследуемых моделей уже можно использовать в качестве аппроксимационных, так как с помощью координат в уменьшенном пространстве можно задавать вид фазовой траектории для различных типов движения.
 
 \vspace{\baselineskip}
 \begin{table}
@@ -162,7 +235,7 @@
     \headline
         {\tt PCA}
         %
-            & $10$ & $10$ & $10$ & $10$ & $10$ & $5$  \\
+            & $-$ & $-$ & $-$ & $-$ & $-$ & $-$  \\
         {\tt KPCA Cosine}
         %['cosine', 46.354525124885235, 38.5077616060247, 29.618070613903885, 28.841379209863078, 28.49246588499732, 28.544181696163562]
             & $46.35$ & $38.50$ & $29.61$ & $28.84$ & $28.49$ & $28.54$  \\
@@ -191,14 +264,71 @@
     \hline
     \end{tabular}
 \end{table} 
-В таблице~\ref{accuracy_table} сравним точности различных алогритмов в смысле точности восстановления изначальной траектории согласно MAPE:
+В таблице~\ref{accuracy_table} сравним точности различных алгоритмов в смысле точности восстановления изначальной траектории согласно MAPE:
 \begin{equation}
 \textrm{MAPE}\mathbf{({x,\hat{x}})} =  \frac{100\%}{n}\sum_{t=1}^{n}\left |\frac{x_t - \hat{x}_t}{x_t}\right|
 \label{eq:mape}
 \end{equation}
 
+\paragraph{GAN для фазовых траекторий в 2D}
+
+\begin{itemize}
+\item \textbf{Модель генератор реальных данных}
+\begin{equation}
+	t \xrightarrow{} s\xrightarrow{Hankel}  \mathbf{x}_i \xrightarrow{PCA} x_i,
+	\label{eq:GAN_real}
+\end{equation}
+где $x_i$ - точка фазовой траектории в уменьшенном пространстве, $x_i \in \mathbb{R}^2$.
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Модель генератор синтетических данных}
+
+\begin{equation}
+	f_{ph}(\mathbf{w},\phi) = \sum_{j=0}^{l} w_{0,j}cos(j\phi) + i w_{1,j}sin(j\phi),
+\label{eq:f_ph}
+\end{equation}
+
+\begin{equation}
+	\phi \xrightarrow{f_{ph}} \hat{x}_{\phi},
+	\quad
+	\hat{x}_{\phi} = [real(f_{ph}),\:imag(f_{ph})],
+	\quad
+	\hat{x}_{\phi}  \in \mathbb{R}^2,
+\label{eq:GAN_fake_1}
+\end{equation}
+\vspace{\baselineskip}
+
+где $\mathbf{w}$ - вектор параметров (коэффициентов) тригонометрического ряда, $l$-количество пар коэффициентов.
+
+Восстановление изначального временного ряда с помощью $f_{ph}$ можно представить в виде
+\begin{equation}
+	\phi \xrightarrow{f_{ph}} \hat{x}_{\phi} \xrightarrow{inverse~PCA}  \mathbf{x}_i \xrightarrow{inverse~Hankel}s
+\label{eq:GAN_fake_2}
+\end{equation}
+\end{itemize}
+
+\begin{itemize}
+\item \textbf{Дискриминатор или функция потери и оптимизация}
+
+Функцию потерь представляется в виде
+\begin{equation}
+\textrm{Loss}\mathbf{(\hat{x}_{\phi},x)} =  \sum_{i=1}^{101}\sum_{j=1}^{k}(\hat{x}_{\phi,i} - x_{i,j})^2
+\label{eq:L}
+\end{equation}
+где для любого фиксированного $i$\; $\{x_{i,j}\}_1^k$ -- $k$ ближайших соседей к $\hat{x}_{\phi,i}$.
+
+Решается задача оптимизации:
+\begin{equation}
+\mathbf{\hat{w}} = \argmin_{\mathbf{w} \in \mathbb{R}^{2l}} \textrm{Loss}(\mathbf{w}|\{x\})
+\label{eq:arg_l}
+\end{equation}
+\end{itemize}
+
+
+
+
 \section{Представление сигнала в сферических координатах}
-\section{Анализ избыточности размерности пространства}
 \section{Аппроксимация сферическими гармониками}
 \section{Эксперимент}
 \section{Заключение}
