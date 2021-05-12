@@ -1,6 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
-
+from sklearn.metrics import pairwise_distances
 
 def integ(xs,ys):
     Y = []
@@ -74,3 +74,48 @@ def eigenvalues_plot(__x,n,each = 1,num_l = None, MinMax = False):
     plt.legend(shadow=True, ncol=1, fontsize=15)
     plt.show()
 
+class NWregression():
+
+    def __init__(self, h, kernel = 'gaussian', metric = 'l2'):
+        kernels = {
+            'gaussian': self._gaussian_kernel,
+            'rectangular': self._rectangular_kernel,
+            'triangular': self._triangular_kernel,
+            'quadratic': self._quadratic_kernel,
+            'quartic': self._quartic_kernel
+        }
+        self.metric = metric
+        self.h = h
+        self.kernel = kernels[kernel]
+        
+    def _gaussian_kernel(self, r):
+        return np.exp(-2*r**2)
+    
+    def _rectangular_kernel(self, r):
+        return r * (r < 1)
+
+    def _triangular_kernel(self, r):
+        return (1-r) * (r < 1)
+
+    def _quadratic_kernel(self, r):
+        return (1-r**2) * (r < 1)
+
+    def _quartic_kernel(self, r):
+        return (1-r**2)**2 * (r < 1)
+    
+    def fit(self, X, Y):
+        self.X = X
+        self.Y = Y
+        return self
+
+    def predict(self, X):
+        
+        dist_matrix = pairwise_distances(X,self.X, metric = self.metric)
+        
+        weight = self.kernel(dist_matrix/self.h)
+        
+        norm_coef = np.sum(weight,axis=1).reshape((len(X),1))
+        
+        regression_ans = (weight@self.Y)/norm_coef
+        
+        return regression_ans
