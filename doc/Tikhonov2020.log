@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.16)  6 JUN 2021 12:04
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2021.3.16)  6 JUN 2021 18:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1209,42 +1209,42 @@ LaTeX Warning: Label `eq:arg_l' multiply defined.
 )
 \openout1 = `Tikhonov2020.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 <<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
-LaTeX Font Info:    Trying to load font information for U+msa on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 42.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 42.
 
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+rsfs on input line 40
+LaTeX Font Info:    Trying to load font information for U+rsfs on input line 42
 .
 
 (/usr/local/texlive/2020/texmf-dist/tex/latex/jknapltx/ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-Package xypdf Info: Line width: 0.47998pt on input line 40.
+Package xypdf Info: Line width: 0.47998pt on input line 42.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -1264,13 +1264,13 @@ Package xypdf Info: Line width: 0.47998pt on input line 40.
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.17} into 
 your preamble.
- on input line 40.
+ on input line 42.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Trying to load font information for T2A+cmss on input line 
-47.
+49.
 (/usr/local/texlive/2020/texmf-dist/tex/latex/cyrillic/t2acmss.fd
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
@@ -1282,13 +1282,13 @@ Package epstopdf Info: Source file: <figs/tr_init.eps>
 (epstopdf)                    size: 11988 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/tr_init-eps-converted
 -to.pdf figs/tr_init.eps>
-(epstopdf)             \includegraphics on input line 65.
+(epstopdf)             \includegraphics on input line 67.
 Package epstopdf Info: Output file is already uptodate.
 <figs/tr_init-eps-converted-to.pdf, id=9, 341.53598pt x 329.40065pt>
 File: figs/tr_init-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/tr_init-eps-converted-to.pdf>
 Package pdftex.def Info: figs/tr_init-eps-converted-to.pdf  used on input line 
-65.
+67.
 (pdftex.def)             Requested size: 145.11052pt x 139.95572pt.
 Package epstopdf Info: Source file: <figs/phase_init.eps>
 (epstopdf)                    date: 2021-03-17 20:34:45
@@ -1298,13 +1298,13 @@ Package epstopdf Info: Source file: <figs/phase_init.eps>
 (epstopdf)                    size: 11680 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/phase_init-eps-conver
 ted-to.pdf figs/phase_init.eps>
-(epstopdf)             \includegraphics on input line 66.
+(epstopdf)             \includegraphics on input line 68.
 Package epstopdf Info: Output file is already uptodate.
 <figs/phase_init-eps-converted-to.pdf, id=10, 361.35pt x 361.35pt>
 File: figs/phase_init-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/phase_init-eps-converted-to.pdf>
 Package pdftex.def Info: figs/phase_init-eps-converted-to.pdf  used on input li
-ne 66.
+ne 68.
 (pdftex.def)             Requested size: 145.11052pt x 145.11087pt.
 
 
@@ -1344,32 +1344,35 @@ Package epstopdf Info: Source file: <figs/3D_sp_harm.eps>
 (epstopdf)                    size: 6793313 bytes
 (epstopdf)             Command: <repstopdf --outfile=figs/3D_sp_harm-eps-conver
 ted-to.pdf figs/3D_sp_harm.eps>
-(epstopdf)             \includegraphics on input line 231.
+(epstopdf)             \includegraphics on input line 233.
 Package epstopdf Info: Output file is already uptodate.
-<figs/3D_sp_harm-eps-converted-to.pdf, id=72, 361.35pt x 361.35pt>
+<figs/3D_sp_harm-eps-converted-to.pdf, id=71, 361.35pt x 361.35pt>
 File: figs/3D_sp_harm-eps-converted-to.pdf Graphic file (type pdf)
 <use figs/3D_sp_harm-eps-converted-to.pdf>
 Package pdftex.def Info: figs/3D_sp_harm-eps-converted-to.pdf  used on input li
-ne 231.
+ne 233.
 (pdftex.def)             Requested size: 241.84842pt x 241.84961pt.
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
 
-[4 <./figs/3D_sp_harm-eps-converted-to.pdf>]
-No file Tikhonov2020.bbl.
-(./Tikhonov2020.aux)
+[4 <./figs/3D_sp_harm-eps-converted-to.pdf>] (./Tikhonov2020.bbl)
+Underfull \hbox (badness 10000) has occurred while \output is active
+
+ []
+
+[5] (./Tikhonov2020.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 30548 strings out of 480608
- 699087 string characters out of 5903630
+ 30524 strings out of 480608
+ 698804 string characters out of 5903630
  1101393 words of memory out of 5000000
- 45751 multiletter control sequences out of 15000+600000
- 560433 words of font info for 96 fonts, out of 8000000 for 9000
+ 45740 multiletter control sequences out of 15000+600000
+ 557390 words of font info for 82 fonts, out of 8000000 for 9000
  1144 hyphenation exceptions out of 8191
  71i,14n,102p,3249b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc
@@ -1384,24 +1387,23 @@ l/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
 exlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
 ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/local/texliv
 e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive
-/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive/2
-020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/202
-0/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/2020/
-texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/te
-xmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/texm
-f-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texmf-
-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2020/texmf-di
-st/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2020/texmf-dist
-/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2020/texmf-dist/f
-onts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2020/texmf-dist/fon
-ts/type1/public/cm-super/sfti1095.pfb>
-Output written on Tikhonov2020.pdf (4 pages, 7124446 bytes).
+/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texli
+ve/2020/texmf-dist/fonts/type1/public/cm-super/sfbi1200.pfb></usr/local/texlive
+/2020/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb></usr/local/texlive/2
+020/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/texlive/202
+0/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/local/texlive/2020/
+texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb></usr/local/texlive/2020/te
+xmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/local/texlive/2020/texm
+f-dist/fonts/type1/public/cm-super/sfsl1200.pfb></usr/local/texlive/2020/texmf-
+dist/fonts/type1/public/cm-super/sfsx1440.pfb></usr/local/texlive/2020/texmf-di
+st/fonts/type1/public/cm-super/sfsx1728.pfb></usr/local/texlive/2020/texmf-dist
+/fonts/type1/public/cm-super/sfti1000.pfb></usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/cm-super/sfti1095.pfb>
+Output written on Tikhonov2020.pdf (5 pages, 7132849 bytes).
 PDF statistics:
- 165 PDF objects out of 1000 (max. 8388607)
- 101 compressed objects within 2 object streams
+ 163 PDF objects out of 1000 (max. 8388607)
+ 100 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 
